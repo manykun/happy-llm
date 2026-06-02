@@ -162,3 +162,5 @@ cython_debug/
 .obsidian
 
 .claude/
+
+.vscode/

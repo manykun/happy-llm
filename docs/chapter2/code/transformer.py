@@ -9,7 +9,7 @@ import torch.nn.functional as F
 class ModelArgs:
     n_embd: int # 嵌入维度
     n_heads: int # 头数
-    dim: int # 模型维度
+    dim: int # 模型维度（多余，与n_embd相同）
     dropout: float
     max_seq_len: int
     vocab_size: int
