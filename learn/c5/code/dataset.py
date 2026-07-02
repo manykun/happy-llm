@@ -1,11 +1,7 @@
 import json
-import random
-import re
-import pandas as pd
 import numpy as np
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 import torch
-import os
     
 class PretrainDataset(Dataset):
     def __init__(self, data_path, tokenizer, max_length=512):
